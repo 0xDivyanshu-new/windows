@@ -11,7 +11,7 @@ workflows:
     - script@1:
         inputs:
         - content: |-
-            echo "hello world!!!"
+            echo "hello world!!! - yoooo"
         - is_debug: 'yes'
         is_always_run: true
     - deploy-to-bitrise-io@2: {}
